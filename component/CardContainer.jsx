@@ -11,6 +11,7 @@ useEffect(()=>{ fetch('https://restcountries.com/v3.1/all?fields=name,capital,fl
  
 
    const arry=countriesData.filter((data)=>{
+
         return data.name.common.toLowerCase().includes(query) || data.region.toLowerCase().includes(query)
     }).map((data,i) => {
    

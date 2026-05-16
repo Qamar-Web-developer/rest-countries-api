@@ -1,5 +1,5 @@
 import React from "react";
-import "../Footer.css";
+import "../footer.css";
 
 export default function Footer() {
   const phoneNumber = "923408286260";
